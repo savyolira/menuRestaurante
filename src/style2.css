@@ -64,11 +64,15 @@ dd::after {
     padding: 0 0 35px 20px;
     
 }
+dt::after{
+    content: ',';
+}
+
 
 /* Right-align the text of the address/footer */
 
 footer{
-    padding-left: 50%;
+    text-align: right;
 }
 
 /* draw a 2px thick black border around the starters and desserts sections of the menu */
